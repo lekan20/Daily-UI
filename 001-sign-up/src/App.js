@@ -1,6 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+
+
 
 var Input = React.createClass({
     render: function() {
