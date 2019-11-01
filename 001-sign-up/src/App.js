@@ -3,8 +3,8 @@ import './App.css';
 
 class App extends React.Component {
     state = {
-        firstName: "John",
-        lastName: "Henry"
+        firstName: "Enter Email",
+        lastName: "Enter Password"
     }
 
     handleFirstNameChange = event => {
@@ -29,7 +29,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <div>
+            <div class="container">
                 <form onSubmit={event => this.handleSubmit(event)}>
                     <input
                         type="text"
@@ -37,7 +37,7 @@ class App extends React.Component {
                         value={this.state.firstName}
                     />
                     <input
-                        type="text"
+                        type="password"
                         onChange={event => this.handleLastNameChange(event)}
                         value={this.state.lastName}
                     />
