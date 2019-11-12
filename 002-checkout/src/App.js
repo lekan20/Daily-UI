@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Checkout from './components/Checkout'
 
 function App() {
   return (
-    <div className="Overlay" style={{'background': 'url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/jj-2.jpg)'}}>
-
+    <div className="App">
+      <Checkout/>
     </div>
   );
 }
