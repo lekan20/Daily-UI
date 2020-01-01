@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
-import Checkout from './components/Checkout'
+import BackgroundImage from './components/BackgroundImage'
+import OrderSummary from "./components/OrderSummary";
+import PaymentInformation from "./components/PaymentInformation";
 
 function App() {
   return (
     <div className="App">
-      <Checkout/>
+      <BackgroundImage/>
+      <OrderSummary/>
+      <PaymentInformation/>
     </div>
   );
 }
